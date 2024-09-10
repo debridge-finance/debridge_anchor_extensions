@@ -1,8 +1,0 @@
-[package]
-name = "common"
-
-authors.workspace = true
-version.workspace = true
-edition.workspace = true
-
-[dependencies]

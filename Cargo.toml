@@ -1,12 +1,11 @@
 [workspace]
 resolver = "2"
 members = [
-    "common",
     "debridge_anchor_extensions",
     "debridge_anchor_extensions_macro",
 ]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.2.0"
 authors = [""]
 edition = "2021"
