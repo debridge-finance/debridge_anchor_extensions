@@ -30,13 +30,13 @@ mod conv {
 
         fn try_into_account<T: AccountSerialize + AccountDeserialize + Clone + Owner>(
             &self,
-        ) -> std::result::Result<Account<T>, Self::Error> {
+        ) -> std::result::Result<Account<'info, T>, Self::Error> {
             Account::try_from(unsafe { std::mem::transmute(self) })
         }
 
         fn try_into_account_unchecked<T: AccountSerialize + AccountDeserialize + Clone + Owner>(
             &self,
-        ) -> std::result::Result<Account<T>, Self::Error> {
+        ) -> std::result::Result<Account<'info, T>, Self::Error> {
             Account::try_from_unchecked(unsafe { std::mem::transmute(self) })
         }
     }
