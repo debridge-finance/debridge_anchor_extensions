@@ -7,7 +7,7 @@ edition.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
-anchor30 = ["dep:anchor-lang"]
+anchor30 = []
 
 [dependencies]
 debridge_anchor_extensions_macro = { path = "../debridge_anchor_extensions_macro" }

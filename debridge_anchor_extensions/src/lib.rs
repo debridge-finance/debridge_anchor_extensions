@@ -4,7 +4,6 @@ pub trait AccountsCount {
     const ACCOUNTS_COUNT: usize;
 }
 
-#[cfg(feature = "anchor30")]
 pub use conv::TryIntoAccount;
 #[cfg(feature = "anchor30")]
 mod conv {
