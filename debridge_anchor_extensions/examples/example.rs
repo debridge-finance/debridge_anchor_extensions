@@ -43,8 +43,5 @@ pub struct NestedContext<'info> {
 
 fn main() {
     assert_eq!(__client_accounts_context::Context::ACCOUNTS_COUNT, 9);
-    assert_eq!(
-        __client_accounts_nested_context::NestedContext::ACCOUNTS_COUNT,
-        18
-    );
+    assert_eq!(__client_accounts_nested_context::NestedContext::ACCOUNTS_COUNT, 18);
 }
