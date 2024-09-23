@@ -9,8 +9,6 @@ edition.workspace = true
 proc-macro = true
 
 [dependencies]
-common = { path = "../common" }
-
 anchor-syn = "0"
 heck = "0.4.1"
 

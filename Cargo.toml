@@ -1,7 +1,6 @@
 [workspace]
 resolver = "2"
 members = [
-    "common",
     "debridge_anchor_extensions",
     "debridge_anchor_extensions_macro",
 ]
